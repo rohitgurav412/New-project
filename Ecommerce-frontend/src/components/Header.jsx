@@ -6,8 +6,8 @@ function Header() {
   return (
     <div className="jumbotron p-3 mb-0 rounded-0 bg-light ">
       <img
-        src={"themarketplacelogo.png"}
-        style={{ width: "190px", height: "40px" }}
+        src={"mk.png"}
+        style={{ width: "100px", height: "40px" }}
         className="float-left"
       />
       {state.loggedin.IsLoggedIn ? (
@@ -20,7 +20,7 @@ function Header() {
       ) : (
         ""
       )}
-      <h4 className=" font_design text-center text-dark font-weight-bold">
+      <h4 className=" font_design text-center text-dark font-dark-serif">
         Welcome to MarketPlace
       </h4>
       <div className="clearfix"></div>

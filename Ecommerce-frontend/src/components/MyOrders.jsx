@@ -29,7 +29,7 @@ const Cancel = (orderid)=>{
   })
 
   .then((resp) => {
-    alert("Product deleted successfully");
+    alert("Order cancelled successfully");
     axios
       .get("http://localhost:9096/api/orders " )
       .then((resp) => {
